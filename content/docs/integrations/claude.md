@@ -13,7 +13,7 @@ VibeRouter предоставляет эксклюзивную возможно�
 Добавьте в ваш профиль (`.bashrc`, `.zshrc` или аналогичный):
 
 ```bash
-export ANTHROPIC_API_URL="https://api.viberouter.dev"
+export ANTHROPIC_BASE_URL="https://api.viberouter.dev"
 export ANTHROPIC_API_KEY="ВАШ_API_КЛЮЧ_ИЗ_ЛК"
 ```
 
@@ -22,7 +22,7 @@ export ANTHROPIC_API_KEY="ВАШ_API_КЛЮЧ_ИЗ_ЛК"
 Выполните в PowerShell:
 
 ```powershell
-setx ANTHROPIC_API_URL "https://api.viberouter.dev"
+setx ANTHROPIC_BASE_URL "https://api.viberouter.dev"
 setx ANTHROPIC_API_KEY "ВАШ_API_КЛЮЧ_ИЗ_ЛК"
 ```
 
@@ -37,10 +37,12 @@ export ANTHROPIC_API_KEY="ВАШ_API_КЛЮЧ_ИЗ_ЛК|claude-3.7-sonnet"
 Доступные модели:
 - claude-3.7-sonnet
 - claude-3-5-sonnet
-- claude-3-5-haiku
+- gpt-oss-120b
+- qwen3-coder
+- gpt-5
 И другие (полный список в [каталоге моделей](https://viberouter.dev/models))
 
-> Если модель не указана, используется стандартная (со стороны шлюза).
+> Если модель не указана, используется стандартная (со стороны Claude code).
 
 ## Оптимизация использования
 
