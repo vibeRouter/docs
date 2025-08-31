@@ -21,7 +21,7 @@ VibeRouter предоставляет REST API для взаимодействи
 
 ### Chat Completions API
 
-[Запросы к моделям](/docs/API/queries-to-models)
+[Запросы к моделям](/docs/api/queries-to-models)
 - `POST /chat/completions`
 - Создание диалога с моделью
 - Поддержка streaming режима
@@ -30,7 +30,7 @@ VibeRouter предоставляет REST API для взаимодействи
 
 ### Models API
 
-[Список моделей](/docs/API/list-of-models)
+[Список моделей](/docs/api/list-of-models)
 - `GET /models`
 - Получение списка доступных моделей
 - Информация о возможностях
@@ -93,7 +93,7 @@ API использует два типа ограничений:
 
 ## Streaming
 
-Для получения ответов в реальном времени используйте параметр `stream: true`. Ответ приходит в формате server-sent events (SSE). Более подробно в разделе [параметров запроса к моделям](/docs/API/queries-to-models/#параметры-запроса).
+Для получения ответов в реальном времени используйте параметр `stream: true`. Ответ приходит в формате server-sent events (SSE). Более подробно в разделе [параметров запроса к моделям](/docs/api/queries-to-models/#параметры-запроса).
 
 ## SDK и библиотеки
 

@@ -8,7 +8,7 @@ VibeRouter — это универсальная платформа, предо�
 
 {{< cards >}}
   {{< card link="docs/getting-started" title="Быстрый старт" >}}
-  {{< card link="docs/API" title="API Reference" >}}
+  {{< card link="docs/api" title="API Reference" >}}
   {{< card link="docs/examples" title="Примеры использования" >}}
   {{< card link="docs/integrations" title="Интеграции" >}}
 {{< /cards >}}
