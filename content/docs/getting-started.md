@@ -29,7 +29,7 @@ client = openai.OpenAI(
 )
 
 completion = client.chat.completions.create(
-    model="google/gemini-2.5-pro",
+    model="gemini-2.5-flash",
     messages=[
         {"role": "user", "content": "Hello world"}
     ]
@@ -51,7 +51,7 @@ async function getCompletion() {
       'Authorization': `Bearer ${apiKey}`
     },
     body: JSON.stringify({
-      model: 'google/gemini-2.5-pro',
+      model: 'gemini-2.5-flash',
       messages: [{ role: 'user', content: 'Hello world' }]
     })
   });
@@ -80,7 +80,7 @@ func main() {
     url := "https://api.vibeRouter.dev/v1/chat/completions"
 
     jsonData := []byte(`{
-        "model": "google/gemini-2.5-pro",
+        "model": "gemini-2.5-flash",
         "messages": [{"role": "user", "content": "Hello world"}]
     }`)
 

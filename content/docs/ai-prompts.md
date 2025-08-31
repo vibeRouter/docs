@@ -33,7 +33,7 @@ Available Endpoints:
    - Content-Type: application/json
    
    Required Parameters:
-   - model: string (e.g., "google/gemini-2.5-pro")
+   - model: string (e.g., "gemini-2.5-flash")
    - messages: array of {role: string, content: string}
    
    Optional Parameters:

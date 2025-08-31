@@ -35,7 +35,7 @@ POST /chat/completions
 
 ```json
 {
-  "model": "google/gemini-2.5-pro",
+  "model": "gemini-2.5-flash",
   "messages": [
     {
       "role": "system",
@@ -66,7 +66,7 @@ POST /chat/completions
     }
   ],
   "created": 1692913639,
-  "model": "google/gemini-2.5-pro",
+  "model": "gemini-2.5-flash",
   "usage": {
     "prompt_tokens": 20,
     "completion_tokens": 15,

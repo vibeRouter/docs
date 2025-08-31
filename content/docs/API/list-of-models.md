@@ -18,7 +18,7 @@ GET /models
 {
   "data": [
     {
-      "id": "google/gemini-2.5-pro",
+      "id": "gemini-2.5-flash",
       "object": "model",
       "created": 1692913639,
       "owned_by": "google"
